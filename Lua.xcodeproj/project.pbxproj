@@ -18,7 +18,7 @@
 		22186BDC27EC77570038DFEC /* lcorolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 22186BA227EC77560038DFEC /* lcorolib.c */; };
 		22186BDD27EC77570038DFEC /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = 22186BA327EC77560038DFEC /* lparser.c */; };
 		22186BDE27EC77570038DFEC /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = 22186BA427EC77560038DFEC /* lgc.c */; };
-		22186BDF27EC77570038DFEC /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 22186BA527EC77560038DFEC /* loslib.c */; };
+		22186BDF27EC77570038DFEC /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 22186BA527EC77560038DFEC /* loslib.c */; settings = {COMPILER_FLAGS = "-DLUA_USE_IOS"; }; };
 		22186BE027EC77570038DFEC /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 22186BA627EC77560038DFEC /* lapi.c */; };
 		22186BE127EC77570038DFEC /* lgc.h in Headers */ = {isa = PBXBuildFile; fileRef = 22186BA727EC77560038DFEC /* lgc.h */; };
 		22186BE227EC77570038DFEC /* llex.c in Sources */ = {isa = PBXBuildFile; fileRef = 22186BA827EC77560038DFEC /* llex.c */; };
@@ -56,7 +56,6 @@
 		22186C0227EC77570038DFEC /* llex.h in Headers */ = {isa = PBXBuildFile; fileRef = 22186BC827EC77570038DFEC /* llex.h */; };
 		22186C0327EC77570038DFEC /* lmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 22186BC927EC77570038DFEC /* lmem.c */; };
 		22186C0427EC77570038DFEC /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = 22186BCA27EC77570038DFEC /* ldo.c */; };
-		22186C0527EC77570038DFEC /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 22186BCB27EC77570038DFEC /* lbitlib.c */; };
 		22186C0627EC77570038DFEC /* ltm.h in Headers */ = {isa = PBXBuildFile; fileRef = 22186BCC27EC77570038DFEC /* ltm.h */; };
 		22186C0727EC77570038DFEC /* lobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 22186BCD27EC77570038DFEC /* lobject.h */; };
 		22186C0827EC77570038DFEC /* lstate.h in Headers */ = {isa = PBXBuildFile; fileRef = 22186BCE27EC77570038DFEC /* lstate.h */; };
@@ -118,7 +117,6 @@
 		22186BC827EC77570038DFEC /* llex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llex.h; sourceTree = "<group>"; };
 		22186BC927EC77570038DFEC /* lmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmem.c; sourceTree = "<group>"; };
 		22186BCA27EC77570038DFEC /* ldo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldo.c; sourceTree = "<group>"; };
-		22186BCB27EC77570038DFEC /* lbitlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lbitlib.c; sourceTree = "<group>"; };
 		22186BCC27EC77570038DFEC /* ltm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltm.h; sourceTree = "<group>"; };
 		22186BCD27EC77570038DFEC /* lobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lobject.h; sourceTree = "<group>"; };
 		22186BCE27EC77570038DFEC /* lstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstate.h; sourceTree = "<group>"; };
@@ -164,7 +162,6 @@
 				22186BC227EC77560038DFEC /* lauxlib.c */,
 				22186BAA27EC77560038DFEC /* lauxlib.h */,
 				22186BB027EC77560038DFEC /* lbaselib.c */,
-				22186BCB27EC77570038DFEC /* lbitlib.c */,
 				22186BB627EC77560038DFEC /* lcode.c */,
 				22186BAC27EC77560038DFEC /* lcode.h */,
 				22186BA227EC77560038DFEC /* lcorolib.c */,
@@ -353,7 +350,6 @@
 				22186BF627EC77570038DFEC /* ldblib.c in Sources */,
 				22186C0B27EC77570038DFEC /* ldump.c in Sources */,
 				22186BEC27EC77570038DFEC /* lstring.c in Sources */,
-				22186C0527EC77570038DFEC /* lbitlib.c in Sources */,
 				22186BEB27EC77570038DFEC /* lobject.c in Sources */,
 				22186BFC27EC77570038DFEC /* lauxlib.c in Sources */,
 				22186BDE27EC77570038DFEC /* lgc.c in Sources */,
